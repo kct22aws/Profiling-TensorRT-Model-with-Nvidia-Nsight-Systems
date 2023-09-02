@@ -7,7 +7,7 @@ This document presents the findings and discussion of profiling a TensorRT - opt
 
 The following sections present profiling results of the model in TensorRT version. The visualization is captured by an .nsys-rep file. To open it, use Nsight Systems desktop UI (File → Open)
 
-#3 PCIE Bandwidth
+## PCIE Bandwidth
 
 Since data reaches GPU for computation via PCIe interface, I looked at the PCI bandwidth and utilization. The figure below shows that GPU (GR Active row) is idle while data transfer occurs on PCIe:
 
